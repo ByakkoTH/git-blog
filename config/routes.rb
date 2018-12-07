@@ -1,5 +1,3 @@
 Rails.application.routes.draw do
-  get 'say/hello'
-
-  get 'hola', to: 'say#hello'
+ resources :articles
 end
